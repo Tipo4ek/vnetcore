@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VNet
+Comment=VNet P2P Cryptocurrency
+Exec=vnet-qt %u
+Terminal=false
+Type=Application
+Icon=vnet128
+MimeType=x-scheme-handler/vnet;
+Categories=Office;Finance;
+Name[ru]=vnet-qt.desktop

@@ -1,0 +1,22 @@
+[Unit]
+Description=VNet's distributed currency daemon
+After=network.target
+
+[Service]
+User=vnet
+Group=vnet
+
+Type=forking
+PIDFile=/var/lib/vnetd/vnetd.pid
+ExecStart=/usr/bin/vnetd -daemon -pid=/var/lib/vnetd/vnetd.pid \
+-conf=/etc/vnet/vnet.conf -datadir=/var/lib/vnetd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

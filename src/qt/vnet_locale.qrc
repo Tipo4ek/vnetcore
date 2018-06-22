@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/vnet_bg.qm</file>
+        <file alias="de">locale/vnet_de.qm</file>
+        <file alias="en">locale/vnet_en.qm</file>
+        <file alias="es">locale/vnet_es.qm</file>
+        <file alias="fi">locale/vnet_fi.qm</file>
+        <file alias="fr">locale/vnet_fr.qm</file>
+        <file alias="it">locale/vnet_it.qm</file>
+        <file alias="ja">locale/vnet_ja.qm</file>
+        <file alias="pl">locale/vnet_pl.qm</file>
+        <file alias="pt">locale/vnet_pt.qm</file>
+        <file alias="ru">locale/vnet_ru.qm</file>
+        <file alias="sk">locale/vnet_sk.qm</file>
+        <file alias="sv">locale/vnet_sv.qm</file>
+        <file alias="vi">locale/vnet_vi.qm</file>
+        <file alias="zh_CN">locale/vnet_zh_CN.qm</file>
+        <file alias="zh_TW">locale/vnet_zh_TW.qm</file>
+    </qresource>
+</RCC>

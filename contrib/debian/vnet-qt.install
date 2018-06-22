@@ -1,0 +1,6 @@
+usr/local/bin/vnet-qt usr/bin
+share/pixmaps/vnet32.xpm usr/share/pixmaps
+share/pixmaps/vnet16.xpm usr/share/pixmaps
+share/pixmaps/vnet128.png usr/share/pixmaps
+debian/vnet-qt.desktop usr/share/applications
+debian/vnet-qt.protocol usr/share/kde4/services/
